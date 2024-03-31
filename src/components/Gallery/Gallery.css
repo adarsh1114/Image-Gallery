@@ -1,0 +1,26 @@
+
+.SectionStyled {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background: linear-gradient(to right, #f2f2f2, #ffffff); 
+    
+  }
+  .Title {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.2rem;
+    text-align: right;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
+    color: #333333; 
+  }
+  
+  @media all and (min-width: 768px) {
+    .Title {
+      padding: 2rem 0;
+    }
+  }
+  
+  @media all and (min-width: 1024px) {
+    .Title {
+      padding: 3rem 0;
+    }
+  }
+  

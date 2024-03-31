@@ -1,0 +1,72 @@
+.NavbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  
+}
+
+.Logo {
+  font-size: 24px;
+}
+
+.MenuIcon {
+  display: none; 
+}
+
+.NavLinks {
+  display: flex;
+  align-items: center;
+}
+
+.NavLinks a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.IconWrapper {
+  position: relative;
+}
+
+.SearchIcon {
+  width: 24px;
+  height: 24px;
+ 
+  background-size: cover;
+}
+.MenuIcon::before,
+.MenuIcon::after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .NavLinks {
+    display: none;
+  }
+
+  .MenuIcon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .MenuIcon.active::before {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .MenuIcon.active::after {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}

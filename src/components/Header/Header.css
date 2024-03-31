@@ -1,0 +1,58 @@
+.HeaderSection {
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.ZP8FfCa3eYmsQTMv0kj0zgHaEK&pid=Api&P=0&h=180'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.HeaderContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.HeaderContainer h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.HeaderContainer p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.HeaderContainer button {
+  background-color: #ffcc00;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.HeaderContainer button:hover {
+  background-color: #e6b800;
+}
+
+.ScrollIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ScrollIndicator span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.ScrollIndicator img {
+  width: 24px;
+  height: auto;
+}
